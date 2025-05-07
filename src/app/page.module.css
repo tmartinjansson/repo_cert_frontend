@@ -1,0 +1,29 @@
+.main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 2rem;
+  min-height: 100vh;
+}
+
+.connectionStatus {
+  margin: 2rem 0;
+  padding: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 0.5rem;
+  text-align: center;
+  width: 100%;
+  max-width: 500px;
+}
+
+.error {
+  color: red;
+  font-weight: bold;
+}
+
+.description {
+  margin-top: 2rem;
+  text-align: center;
+  width: 100%;
+  max-width: 600px;
+}
